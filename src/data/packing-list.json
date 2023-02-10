@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "tea/coffee": {
+        "amount": {
+          "parcel-size-1": 1,
+          "parcel-size-2": 1,
+          "parcel-size-3": 1,
+          "parcel-size-4": 1,
+          "parcel-size-5": 1
+        }
+      }
+    },
+    {
+      "rice": {
+        "amount": {
+          "parcel-size-1": 1,
+          "parcel-size-2": 2,
+          "parcel-size-3": 3,
+          "parcel-size-4": 3,
+          "parcel-size-5": 4
+        }
+      }
+    },
+    {
+      "pasta": {
+        "amount": {
+          "parcel-size-1": 1,
+          "parcel-size-2": 2,
+          "parcel-size-3": 3,
+          "parcel-size-4": 3,
+          "parcel-size-5": 4
+        }
+      }
+    },
+    {
+      "pasta-sauce": {
+        "amount": {
+          "parcel-size-1": 1,
+          "parcel-size-2": 2,
+          "parcel-size-3": 2,
+          "parcel-size-4": 2,
+          "parcel-size-5": 5
+        }
+      }
+    },
+    {
+      "beans": {
+        "amount": {
+          "parcel-size-1": 2,
+          "parcel-size-2": 3,
+          "parcel-size-3": 4,
+          "parcel-size-4": 4,
+          "parcel-size-5": 3
+        }
+      }
+    }
+  ]
+}

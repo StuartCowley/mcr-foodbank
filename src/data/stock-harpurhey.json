@@ -1,0 +1,40 @@
+{
+    "items": [
+      {
+        "title": "teaCoffee",
+        "stock": {
+            "currentStock": 20,
+            "lowStockThreshold": 10
+        }
+      },
+      {
+        "title": "rice",
+        "stock": {
+            "currentStock": 50,
+            "lowStockThreshold": 30
+        }
+      },
+      {
+        "title": "pasta",
+        "stock": {
+            "currentStock": 40,
+            "lowStockThreshold":15
+        }
+      },
+      {
+        "title": "pastaSauce",
+        "stock": {
+            "currentStock": 15,
+            "lowStockThreshold": 5
+        }
+      },
+      {
+        "title": "beans",
+        "stock": {
+            "currentStock": 70,
+            "lowStockThreshold": 45
+        }
+      }
+    ]
+  }
+  
