@@ -2,20 +2,26 @@ import { useState } from "react";
 import "./styles/app.css";
 import stock from "./data/stock-harpurhey.json";
 
+import { addStockToSingleItem, removeStockFromSingleItem } from "./functions";
+
 function App() {
   const [harpurheyStock, setHarpurheyStock] = useState(stock.items);
 
   const handleClick = (e) => {
-    const foundItem = harpurheyStock.find(item => {
-      return item.title === e.target.value
-    })
-
     if (e.target.id === "decrement") {
-      foundItem.stock.currentStock = foundItem.stock.currentStock - 1
+      setHarpurheyStock(
+        removeStockFromSingleItem(
+          "Harpurhey",
+          harpurheyStock,
+          e.target.value,
+          1
+        )
+      );
     } else {
-      foundItem.stock.currentStock = foundItem.stock.currentStock + 1
+      setHarpurheyStock(
+        addStockToSingleItem("Harpurhey", harpurheyStock, e.target.value, 1)
+      );
     }
-    setHarpurheyStock(prev => [...prev])
   };
 
   return (
@@ -26,7 +32,7 @@ function App() {
           <div className="app__stock-item" key={index}>
             <div>Product: {item.title}</div>
             <div>Current Stock: {item.stock.currentStock}</div>
-            <div>Low stock threshold: {item.stock.lowStockThreshold}</div>
+            <div>Low stock threshold: {item.stock.redStockThreshold}</div>
             <button id="increment" value={item.title} onClick={handleClick}>
               +
             </button>

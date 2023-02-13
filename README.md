@@ -105,6 +105,14 @@ An array of items consisting of name, and an object specifying the current stock
 }
 ```
 
+#### Available centres
+An array of the available centres
+```
+{
+  "centres": ["Warehouse", "Harpurhey", "St Peters House", "Openshaw"]
+}
+
+```
 
 ## Available Scripts
 
