@@ -1,40 +1,44 @@
 {
-    "items": [
-      {
-        "title": "teaCoffee",
-        "stock": {
-            "currentStock": 20,
-            "lowStockThreshold": 10
-        }
-      },
-      {
-        "title": "rice",
-        "stock": {
-            "currentStock": 50,
-            "lowStockThreshold": 30
-        }
-      },
-      {
-        "title": "pasta",
-        "stock": {
-            "currentStock": 40,
-            "lowStockThreshold":15
-        }
-      },
-      {
-        "title": "pastaSauce",
-        "stock": {
-            "currentStock": 15,
-            "lowStockThreshold": 5
-        }
-      },
-      {
-        "title": "beans",
-        "stock": {
-            "currentStock": 70,
-            "lowStockThreshold": 45
-        }
+  "items": [
+    {
+      "title": "teaCoffee",
+      "stock": {
+        "currentStock": 20,
+        "redStockThreshold": 10,
+        "amberStockThreshold": 15
       }
-    ]
-  }
-  
+    },
+    {
+      "title": "rice",
+      "stock": {
+        "currentStock": 50,
+        "redStockThreshold": 30,
+        "amberStockThreshold": 40
+      }
+    },
+    {
+      "title": "pasta",
+      "stock": {
+        "currentStock": 40,
+        "redStockThreshold": 15,
+        "amberStockThreshold": 25
+      }
+    },
+    {
+      "title": "pastaSauce",
+      "stock": {
+        "currentStock": 15,
+        "redStockThreshold": 5,
+        "amberStockThreshold": 10
+      }
+    },
+    {
+      "title": "beans",
+      "stock": {
+        "currentStock": 70,
+        "redStockThreshold": 45,
+        "amberStockThreshold": 55
+      }
+    }
+  ]
+}
